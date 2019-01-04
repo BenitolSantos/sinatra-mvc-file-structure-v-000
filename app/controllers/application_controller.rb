@@ -18,4 +18,8 @@ class Dog
     @breed = breed
     @age = age
   end
+
+  def self.new(name,breed,age)
+    dog = new(name,age,breed)
+  end
 end
